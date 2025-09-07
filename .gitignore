@@ -1,0 +1,10 @@
+# nix
+/.direnv/
+/.pre-commit-config.yaml
+result
+
+# website
+/pgdata/*
+/.data/
+public
+resources
