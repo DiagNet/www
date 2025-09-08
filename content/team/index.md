@@ -42,4 +42,13 @@ and running the test pipeline to make sure new features don’t break what’s a
 
 ### Benedikt – Developer
 
+I'm one of the driving forces when it comes to the development and design of our Product.
+A few of my most important tasks are:
+
+- Creating an efficient and well structured backend
+- Organizing and setting up Soft- and Hardware for testing our Product
+- Implementing a seamless interface between our software and the devices it tests
+
+Feel free to contact me by writing an [email](mailto:benedikt.theuretzbachner@htl.rennweg.at).
+
 ### Danijel – Developer
