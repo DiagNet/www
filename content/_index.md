@@ -4,7 +4,7 @@ summary: "Automatisierte Netzwerktests – zentral, planbar, auswertbar."
 description: "DiagNet ist ein Dashboard für Netzwerktests (Routing, Switching, Firewalls) mit Historie und Vergleich."
 ---
 
-DiagNet ist the future of automized Health-Monitoring.
+<p class="tagline-script">DiagNet is the future of automized Health-Monitoring.</p>
 
 <div class="social-links">
   <a href="https://instagram.com/deinname" aria-label="Instagram" target="_blank" rel="noopener">
