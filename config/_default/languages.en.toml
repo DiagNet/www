@@ -9,7 +9,7 @@ title = "DiagNet"
   isoCode = "en"
   rtl = false
   dateFormat = "2 January 2006"
-  logo = "img/logo.png"
+  logo = "img/testlogo.png"
   # secondaryLogo = "img/secondary-logo.png"
   # description = "My awesome website"
   # copyright = "Copy, _right?_ :thinking_face:"
@@ -17,7 +17,7 @@ title = "DiagNet"
 [params.author]
 name = "DiagNet Team"
 email = "1197@htl.rennweg.at"
-image = "img/diagnet_logo.png"
+image = "img/testlogo.png"
 imageQuality = 96
 headline = "Test-Driven-Networking made easy"
 bio = "Diplomprojekt HTL Rennweg - Netzwerk-Tests per Weboberfläche"
