@@ -31,24 +31,30 @@ Curious about me? Take a look at my [homepage](https://karun.sndh.dev).
 
 ### Luka – Scrum Master
 
-## Luka – Scrum Master
+My work happens mostly on the backend, where reliability and efficiency matter
+most.
 
-My work happens mostly on the backend, where reliability and efficiency matter most.  
-I focus on making the system scalable and well-documented, so it can keep up as the project grows.  
-That means optimizing the backend, designing APIs, and structuring the database.  
+I focus on making the system scalable and well-documented, so it can keep up as
+the project grows.
 
-I also take care of the practical parts — configuring routers, keeping data flowing,  
-and running the test pipeline to make sure new features don’t break what’s already working.
+That means optimizing the backend, designing APIs, and structuring the database.
+
+I also take care of the practical parts — configuring routers, keeping data
+flowing, and running the test pipeline to make sure new features don’t break
+what’s already working.
 
 ### Benedikt – Developer
 
-I'm one of the driving forces when it comes to the development and design of our Product.
+I'm one of the driving forces when it comes to the development and design of
+our Product.
 A few of my most important tasks are:
 
 - Creating an efficient and well structured backend
 - Organizing and setting up Soft- and Hardware for testing our Product
-- Implementing a seamless interface between our software and the devices it tests
+- Implementing a seamless interface between our software and the devices it
+  tests
 
-Feel free to contact me by writing an [email](mailto:benedikt.theuretzbachner@htl.rennweg.at).
+Feel free to contact me by writing an
+[email](mailto:benedikt.theuretzbachner@htl.rennweg.at).
 
 ### Danijel – Developer
