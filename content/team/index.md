@@ -31,6 +31,15 @@ Curious about me? Take a look at my [homepage](https://karun.sndh.dev).
 
 ### Luka – Scrum Master
 
+## Luka – Scrum Master
+
+My work happens mostly on the backend, where reliability and efficiency matter most.  
+I focus on making the system scalable and well-documented, so it can keep up as the project grows.  
+That means optimizing the backend, designing APIs, and structuring the database.  
+
+I also take care of the practical parts — configuring routers, keeping data flowing,  
+and running the test pipeline to make sure new features don’t break what’s already working.
+
 ### Benedikt – Developer
 
 ### Danijel – Developer
