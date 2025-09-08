@@ -11,84 +11,25 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-name = "About"
-pageRef = "about"
-weight = 10
+  name = "About"
+  pageRef = "about"
+  weight = 10
 
 [[main]]
-name = "Team"
-pageRef = "team"
-weight = 20
+  name = "Team"
+  pageRef = "team"
+  weight = 20
 
 [[main]]
-name = "News"
-pageRef = "news"
-weight = 30
-
-[[main]]
-name = "Projects"
-pageRef = "projects"
-weight = 40
-
-[[main]]
-name = "Services"
-pageRef = "services"
-weight = 50
-
-#[[main]]
-#  name = "Blog"
-#  pageRef = "posts"
-#  weight = 10
-
-#[[main]]
-#  name = "Parent"
-#  weight = 20
-
-#[[main]]
-#  name = "example sub-menu 1"
-#  parent = "Parent"
-#  pageRef = "posts"
-#  weight = 20
-
-#[[main]]
-#  name = "example sub-menu 2"
-#  parent = "Parent"
-#  pageRef = "posts"
-#  weight = 20
-
-#[[subnavigation]]
-#  name = "An interesting topic"
-#  pageRef = "tags/interesting-topic"
-#  weight = 10
-
-#[[subnavigation]]
-#  name = "My Awesome Category"
-#  pre = "github"
-#  pageRef = "categories/awesome"
-#  weight = 20
-
-#[[main]]
-#  name = "Categories"
-#  pageRef = "categories"
-#  weight = 20
-
-#[[main]]
-#  name = "Tags"
-#  pageRef = "tags"
-#  weight = 30
-
+  name = "Posts"
+  pageRef = "posts"
+  weight = 30
 
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before
 # the copyright notice. Configure as per the main menu above.
 
-
-# [[footer]]
-#   name = "Tags"
-#   pageRef = "tags"
-#   weight = 10
-
-# [[footer]]
-#   name = "Categories"
-#   pageRef = "categories"
-#   weight = 20
+[[footer]]
+  name = "Tags"
+  pageRef = "tags"
+  weight = 10
