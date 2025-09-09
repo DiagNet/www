@@ -11,3 +11,27 @@
 .mono-font {
   font-family: font, nerdfont-icons;
 }
+
+.ecg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* Add any other SVG styles here */
+  width: min(335px, 100%);
+  height: auto;
+}
+
+.ecg-line {
+  stroke-dasharray: 200; /* A value less than the total path length to create a gap */
+  stroke-dashoffset: 200;
+  animation: move 3s linear infinite; /* Changed to 'linear' for smooth, constant speed */
+}
+
+@keyframes move {
+  from {
+    stroke-dashoffset: 400; /* Starting point of the animation (total path length) */
+  }
+  to {
+    stroke-dashoffset: 0; /* The end point of the animation */
+  }
+}
