@@ -1,0 +1,62 @@
+name: Update Website
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * mon"
+
+jobs:
+  update-wesbite:
+    name: Update Website
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          submodules: recursive
+
+      - name: Install Lix
+        uses: DeterminateSystems/nix-installer-action@v18
+        with:
+          source-url: https://install.lix.systems/lix/lix-installer-x86_64-linux
+          diagnostic-endpoint: "" # so eelco can have more personalized self-merges? no thank you
+          backtrace: true
+          extra-conf: |
+            experimental-features = nix-command flakes
+
+      - name: Update flake.lock
+        run: |
+          nix flake update
+
+      - name: Update submodules
+        run: |
+          git submodule update --remote --rebase
+
+      - name: Create Pull Request
+        id: create-pr
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GH_TOKEN_FOR_UPDATES }}
+          title: "treewide: update"
+          commit-message: "treewide: update"
+          branch: update_website
+          delete-branch: true
+          sign-commits: true
+          labels: |
+            dependencies
+            automated
+          assignees: MrSom3body
+
+      - name: Auto merge
+        run: |
+          if [ -n "${{ steps.create-pr.outputs.pull-request-number }}" ]; then
+            gh pr merge --auto --rebase ${{ steps.create-pr.outputs.pull-request-number }}
+          fi
+        env:
+          GH_TOKEN: ${{ github.token }}
