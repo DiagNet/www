@@ -1,4 +1,4 @@
-name: Deploy Website
+name: Deploy Homepage
 
 on:
   push:
@@ -85,9 +85,10 @@ jobs:
           message: |
             ## Preview ${{ github.repository }} on Cloudflare
 
-            | **Last commit:** | ${{ github.event.pull_request.head.sha || github.event.workflow_run.head_sha || github.sha }} |
-            | ---------------- | - |
-            | **Preview URL**: | ${{ needs.preview.outputs.deployment-url }} |
+            | **Last commit** | ${{ github.event.pull_request.head.sha || github.event.workflow_run.head_sha || github.sha }} |
+            | --------------- | - |
+            | **Status**      | ${{ needs.preview.result == 'success' && '✅ Success' || '❌ Failed' }} |
+            | **Preview URL** | ${{ needs.preview.result == 'success' && needs.preview.outputs.deployment-url || 'N/A' }} |
 
   deploy:
     name: Deploy (Production)
