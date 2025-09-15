@@ -58,3 +58,16 @@ Feel free to contact me by writing an
 [email](mailto:benedikt.theuretzbachner@htl.rennweg.at).
 
 ### Danijel – Developer
+
+I focus on network testing and visualization within the project.
+My main responsibilities include:
+
+- Configuring the network topology, especially the switches
+- Maintaining test cases for switching
+- Implementing the graphical listing and visualization of test results
+- Running tests and analyzing their results
+- Additionally, I contribute to security hardening and manage our social media
+  presence
+
+This way, I make sure the technical foundation is solid and the results are
+presented in an accessible way.
