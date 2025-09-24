@@ -9,3 +9,6 @@ result
 public
 resources
 .hugo_build.lock
+
+# ide
+.idea/
