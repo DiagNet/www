@@ -9,11 +9,12 @@ tags:
   - draft
 ---
 
+
 This is how we found the idea for our diploma thesis DiagNet:
 
 We brainstormed for several weeks to find a suitable idea for our final project.
 Many concepts came to mind, but none really fit our requirements.
-We wanted a software project that placed the main focus on programming, while 
+We wanted a software project that placed the main focus on programming, while
 also incorporating aspects of computer networking.
 
 After some despair, CANCOM, an IT and networking solutions company, presented a
