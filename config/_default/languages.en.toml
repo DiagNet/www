@@ -20,4 +20,5 @@ links = [
   { email = "mailto:team@diagnet.dev" },
   { github = "https://github.com/DiagNet" },
   { instagram = "https://instagram.com/" },
+  { mastodon = "https://techhub.social/@diagnet" },
 ]
