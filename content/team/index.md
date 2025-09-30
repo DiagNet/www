@@ -13,7 +13,7 @@ showComments: false
 Meet the people who make DiagNet happen. Our team combines technical expertise,
 creativity, and collaboration to bring you the best network testing experience.
 
-![Picture of our Team](team.jpg "From left to right: Danijel, Benedikt, Luka, Karun")
+![Team photo showing Danijel, Benedikt, Luka, and Karun from left to right](team.jpg "From left to right: Danijel, Benedikt, Luka, Karun")
 
 ---
 
