@@ -1,0 +1,12 @@
+name: Nix CI
+
+on:
+  pull_request:
+  merge_group:
+
+jobs:
+  check-code:
+    name: Check code
+    uses: ./.github/workflows/nix.yml
+    with:
+      command: nix flake check
