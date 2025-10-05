@@ -19,7 +19,7 @@ jobs:
           submodules: recursive
 
       - name: Install Nix
-        uses: nixbuild/nix-quick-install-action@v31
+        uses: nixbuild/nix-quick-install-action@v34
         with:
           nix_conf: |
             keep-env-derivations = true
