@@ -77,7 +77,7 @@ jobs:
       - name: Auto merge
         run: |
           if [ -n "${{ steps.create-pr.outputs.pull-request-number }}" ]; then
-            gh pr merge --auto --rebase ${{ steps.create-pr.outputs.pull-request-number }}
+            gh pr merge --auto --rebase --admin ${{ steps.create-pr.outputs.pull-request-number }}
           fi
         env:
           GH_TOKEN: ${{ github.token }}
