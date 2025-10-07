@@ -13,7 +13,7 @@ Devlog #3: A server room adventure
 
 When CANCOM agreed to sponsor us with actual networking hardware for our
 project, it suddenly felt a lot more real. Until then, everything existed in
-virtual environments and documents — now we had physical routers and switches
+virtual environments and documents - now we had physical routers and switches
 waiting to be unboxed, mounted, and configured.
 
 Getting them to school was an adventure in itself. I ended up loading the boxes
@@ -22,12 +22,12 @@ carefully navigating through traffic with what felt like half a data center in
 the backseat.
 
 Once we arrived, reality hit us: we had the hardware, the motivation, and the
-people — but no idea where to put it. I was told a certain room Number, which
+people - but no idea where to put it. I was told a certain room Number, which
 didn't exist. After carrying hardware through the whole school, we decided to
 sore it in our classroom, before deploying it in the server room a few days
 later.
 
-Danijel took charge of the mounting process — screwing, measuring, and
+Danijel took charge of the mounting process - screwing, measuring, and
 occasionally questioning the sanity of whoever designed rack rails. The rest of
 us joined in, helping with cables and the general chaos that comes with setting
 up real hardware for the first time.
