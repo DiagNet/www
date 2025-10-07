@@ -9,28 +9,28 @@ tags:
   - draft
 ---
 
-How DiagNet was born (aka our diploma thesis story)
+How DiagNet was born (our diploma thesis story)
 
 Ever spent weeks trying to come up with the one idea for a final project? Yeah,
 us too. Spoiler: it’s harder than it sounds.
 
 We sat around, filled whiteboards with more scribbles than actual words, and
-still… nothing really clicked. Some ideas sounded cool for about five minutes,
+still... nothing really clicked. Some ideas sounded cool for a few minutes,
 others would have been fun but didn’t quite match our requirements.
 
-Our wish list was simple (or so we thought):
+Our wish list was simple:
 
 - Main focus on programming
 - Something with computer networking
-- Not completely boring
+- Exciting to work on
 
-After some collective despair™️, salvation arrived in the form of CANCOM, an IT
+After some collective despair, salvation arrived in the form of CANCOM, an IT
 and networking solutions company. They presented a handful of project ideas to
 our class. One of them immediately stood out: a test-driven networking solution
 using pyATS.
 
 That was it. The perfect mix of code and networks. We saw the potential right
-away—it matched our skills and our interests. After some extra consideration
-(read: more whiteboard doodles), we decided to commit.
+away - it matched our skills and our interests. After some extra consideration,
+we decided to commit to this idea.
 
-The name? That was my contribution. And just like that, DiagNet was born. 🎉
+The name? That was my contribution. And just like that, DiagNet was born.
