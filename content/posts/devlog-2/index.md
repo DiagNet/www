@@ -30,12 +30,12 @@ It gave us a starting point and ensured that each of us could explore the areas
 most relevant to the project.
 
 Of course, it was summer break. As motivated as we were, everyone ended up
-taking time off—sometimes for a week, sometimes for more than a month. Our
+taking time off - sometimes for a week, sometimes for more than a month. Our
 initial vision of long, uninterrupted work sessions quickly shifted into shorter
 sprints between vacations.
 
-Even so, progress happened. Each time we returned and caught up on Discord, we
-brought new pieces to the table. Slowly, the project began to take shape. We
+Nevertheless, progress happened. Each time we returned and caught up on Discord,
+we brought new pieces to the table. Slowly, the project began to take shape. We
 didn’t have everything planned out in advance; instead, we figured things out
 step by step as we went along.
 
