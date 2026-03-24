@@ -19,6 +19,5 @@ bio = "A diploma thesis that aims to make Test-Driven-Networking not only possib
 links = [
   { email = "mailto:team@diagnet.dev" },
   { github = "https://github.com/DiagNet" },
-  { instagram = "https://instagram.com/" },
   { mastodon = "https://techhub.social/@diagnet" },
 ]
