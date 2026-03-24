@@ -1,13 +1,10 @@
+{ inputs, pkgs, ... }:
 {
-  inputs,
-  pkgs,
-  ...
-}: {
-  pre-commit-check = inputs.git-hooks-nix.lib.${pkgs.system}.run {
+  pre-commit-check = inputs.git-hooks-nix.lib.${pkgs.stdenv.hostPlatform.system}.run {
     src = ../.;
     hooks = {
       # nix
-      alejandra.enable = true;
+      nixfmt.enable = true;
       deadnix.enable = true;
       nil.enable = true;
       statix.enable = true;

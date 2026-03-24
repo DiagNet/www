@@ -1,20 +1,12 @@
+{ self, pkgs }:
 {
-  self,
-  pkgs,
-}: {
   default = pkgs.mkShell {
-    packages = builtins.attrValues {
-      inherit
-        (pkgs)
-        just
-        hugo
-        ;
-    };
+    packages = builtins.attrValues { inherit (pkgs) just hugo; };
 
-    buildInputs = [];
+    buildInputs = [ ];
 
     shellHook = ''
-      ${self.checks.${pkgs.system}.pre-commit-check.shellHook}
+      ${self.checks.${pkgs.stdenv.hostPlatform.system}.pre-commit-check.shellHook}
     '';
   };
 }
