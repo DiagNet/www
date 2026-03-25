@@ -1,24 +1,15 @@
-{ inputs, pkgs, ... }:
+{ inputs, ... }:
 {
-  pre-commit-check = inputs.git-hooks-nix.lib.${pkgs.stdenv.hostPlatform.system}.run {
-    src = ../.;
-    hooks = {
-      # nix
-      nixfmt.enable = true;
-      deadnix.enable = true;
-      nil.enable = true;
-      statix.enable = true;
+  imports = [ inputs.git-hooks-nix.flakeModule ];
 
-      # markdown
-      markdownlint = {
-        enable = true;
-        settings.configuration = {
-          line-length = {
-            code_blocks = false;
-            tables = false;
-          };
-          no-inline-html = false;
-        };
+  perSystem = {
+    pre-commit.settings = {
+      src = ../.;
+      hooks = {
+        treefmt.enable = true;
+
+        # nix
+        nil.enable = true;
       };
     };
   };
