@@ -20,6 +20,11 @@
   pageRef = "team"
   weight = 20
 
+[[main]]
+  name = "Docs"
+  pageRef = "docs"
+  weight = 30
+
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before
 # the copyright notice. Configure as per the main menu above.
